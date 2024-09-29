@@ -56,8 +56,8 @@ useEffect(()=>{
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="/home" className="nav-item nav-link active">Home</a>
-                <a href="/Diagnose" className="nav-item nav-link">Diagnose</a>
+                <a href="https://lordypopdy-lab.github.io/CarService/" className="nav-item nav-link active">Home</a>
+                <a href="/CarService/Diagnose" className="nav-item nav-link">Diagnose</a>
             </div>
             <a href="" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i className="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -77,7 +77,7 @@ useEffect(()=>{
                                 <div className="col-10 col-lg-7 text-center text-lg-start">
                                     <h6 className="text-white text-uppercase mb-3 animated slideInDown">// Car Servicing //</h6>
                                     <h1 className="display-3 text-white mb-4 pb-3 animated slideInDown">Qualified Car Diagnostic Test</h1>
-                                    <a href="/Diagnose" className="btn btn-primary py-3 px-5 animated slideInDown">Start Now<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="https://lordypopdy-lab.github.io/CarService/Diagnose" className="btn btn-primary py-3 px-5 animated slideInDown">Start Now<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
                                     <img className="img-fluid" src={import.meta.env.BASE_URL + "/src/img/carousel-1.png"} alt="" />
@@ -94,7 +94,7 @@ useEffect(()=>{
                                 <div className="col-10 col-lg-7 text-center text-lg-start">
                                     <h6 className="text-white text-uppercase mb-3 animated slideInDown">// Car Servicing //</h6>
                                     <h1 className="display-3 text-white mb-4 pb-3 animated slideInDown">With Advance Diagnostic Feautures</h1>
-                                    <a href="/Diagnose" className="btn btn-primary py-3 px-5 animated slideInDown">Start Now<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="https://lordypopdy-lab.github.io/CarService/Diagnose" className="btn btn-primary py-3 px-5 animated slideInDown">Start Now<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
                                     <img className="img-fluid" src={import.meta.env.BASE_URL + "/src/img/carousel-2.png"} alt="" />
@@ -129,7 +129,7 @@ useEffect(()=>{
                         <div className="ps-4">
                             <h5 className="mb-3">Quality Servicing</h5>
                             <p>Expert quality servicing for reliable, efficient, and timely solutions every time.</p>
-                            <a className="text-secondary border-bottom" href="/Diagnose">Diagnose Now</a>
+                            <a className="text-secondary border-bottom" href="https://lordypopdy-lab.github.io/CarService/Diagnose">Diagnose Now</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ useEffect(()=>{
                         <div className="ps-4">
                             <h5 className="mb-3">Expert Workers</h5>
                             <p>Skilled professionals delivering top-notch solutions for your business needs.</p>
-                            <a className="text-secondary border-bottom" href="/Diagnose">Diagnose Now</a>
+                            <a className="text-secondary border-bottom" href="https://lordypopdy-lab.github.io/CarService/Diagnose">Diagnose Now</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ useEffect(()=>{
                         <div className="ps-4">
                             <h5 className="mb-3">Modern Equipment</h5>
                             <p>Cutting-edge modern equipment for efficiency, innovation, and high-performance solutions.</p>
-                            <a className="text-secondary border-bottom" href="/Diagnose">Diagnose Now</a>
+                            <a className="text-secondary border-bottom" href="https://lordypopdy-lab.github.io/CarService/Diagnose">Diagnose Now</a>
                         </div>
                     </div>
                 </div>
@@ -211,7 +211,7 @@ useEffect(()=>{
                             </div>
                         </div>
                     </div>
-                    <a href="/Diagnose" className="btn btn-primary py-3 px-5">Diagnose Now<i className="fa fa-arrow-right ms-3"></i></a>
+                    <a href="https://lordypopdy-lab.github.io/CarService/Diagnose" className="btn btn-primary py-3 px-5">Diagnose Now<i className="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </div>
         </div>
