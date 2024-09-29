@@ -88,7 +88,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src="/src/img/service-1.jpg"
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-1.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="http://localhost:5000/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +106,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src="/src/img/service-2.jpg"
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-2.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="http://localhost:5000/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src="/src/img/service-3.jpg"
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-3.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="http://localhost:5000/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src="/src/img/service-4.jpg"
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-4.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -152,7 +152,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="http://localhost:5000/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
