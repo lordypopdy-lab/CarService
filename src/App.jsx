@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-
 import Diagnose from './pages/Diagnose'
 import Home from './pages/Home'
 
