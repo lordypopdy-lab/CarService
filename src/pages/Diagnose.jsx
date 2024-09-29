@@ -88,7 +88,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-1.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "src/img/service-1.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-2.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "src/img/service-2.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-3.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "src/img/service-3.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "/src/img/service-4.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "src/img/service-4.jpg"}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
