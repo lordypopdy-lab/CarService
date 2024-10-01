@@ -17,6 +17,7 @@ import testimonial1 from '../img/testimonial1.jpg';
 import testimonial2 from '../img/testimonial2.jpg';
 import testimonial3 from '../img/testimonial3.jpg';
 import testimonial4 from '../img/testimonial4.jpg';
+import { Link } from 'react-router-dom';
 
 const Diagnose = () => {
     const [deviceConnected, setDeviceConnected] = useState(false);
@@ -115,7 +116,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <Link to="/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +134,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <Link to="/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +152,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <Link to="/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +170,7 @@ const Diagnose = () => {
                                     <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
-                                    <a href="https://lordypopdy-lab.github.io/CarService/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></a>
+                                    <Link to="/" className="btn btn-primary py-3 px-5 mt-3">Back to Home<i className="fa fa-arrow-right ms-3"></i></Link>
                                 </div>
                             </div>
                         </div>
