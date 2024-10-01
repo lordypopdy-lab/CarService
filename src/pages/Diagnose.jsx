@@ -1,5 +1,22 @@
 import React from 'react'
 import { useState } from 'react';
+import about from "../img/about.jpg";
+import carousel1 from '../img/carousel1.png';
+import carousel2 from '../img/carousel2.png';
+import carouselbg1 from '../img/carouselbg1.jpg';
+import carouselbg2 from '../img/carouselbg2.jpg';
+import service1 from '../img/service1.jpg';
+import service2 from '../img/service2.jpg';
+import service3 from '../img/service3.jpg';
+import service4 from '../img/service4.jpg';
+import team1 from '../img/team1.jpg';
+import team2 from '../img/team2.jpg';
+import team3 from '../img/team3.jpg';
+import team4 from '../img/team4.jpg';
+import testimonial1 from '../img/testimonial1.jpg';
+import testimonial2 from '../img/testimonial2.jpg';
+import testimonial3 from '../img/testimonial3.jpg';
+import testimonial4 from '../img/testimonial4.jpg';
 
 const Diagnose = () => {
     const [deviceConnected, setDeviceConnected] = useState(false);
@@ -88,7 +105,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "./src/img/service-1.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={service1}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -106,7 +123,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "./src/img/service-2.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={service2}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -124,7 +141,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "./src/img/service-3.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={service3}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>
@@ -142,7 +159,7 @@ const Diagnose = () => {
                             <div className="row g-4">
                                 <div className="col-md-6" style={{minHeight: "350px"}}>
                                     <div className="position-relative h-100">
-                                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "./src/img/service-4.jpg"}
+                                        <img className="position-absolute img-fluid w-100 h-100" src={service4}
                                             style={{objectFit: "cover"}} alt="" />
                                     </div>
                                 </div>

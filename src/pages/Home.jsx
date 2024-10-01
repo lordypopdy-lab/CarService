@@ -1,6 +1,24 @@
 import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react';
+import about from "../img/about.jpg";
+import carousel1 from '../img/carousel1.png';
+import carousel2 from '../img/carousel2.png';
+import carouselbg1 from '../img/carouselbg1.jpg';
+import carouselbg2 from '../img/carouselbg2.jpg';
+import service1 from '../img/service1.jpg';
+import service2 from '../img/service2.jpg';
+import service3 from '../img/service3.jpg';
+import service4 from '../img/service4.jpg';
+import team1 from '../img/team1.jpg';
+import team2 from '../img/team2.jpg';
+import team3 from '../img/team3.jpg';
+import team4 from '../img/team4.jpg';
+import testimonial1 from '../img/testimonial1.jpg';
+import testimonial2 from '../img/testimonial2.jpg';
+import testimonial3 from '../img/testimonial3.jpg';
+import testimonial4 from '../img/testimonial4.jpg';
+
 
 const Home = () => {
 const [Now, SetNow] = useState("");
@@ -64,13 +82,12 @@ useEffect(()=>{
     </nav>
     {/* <!-- Navbar End --> */}
 
-
     {/* <!-- Carousel Start --> */}
     <div className="container-fluid p-0 mb-5">
         <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="w-100" src={import.meta.env.BASE_URL + "./src/img/carousel-bg-1.jpg"} alt="Image" />
+                    <img className="w-100" src={about} alt="Image" />
                     <div className="carousel-caption d-flex align-items-center">
                         <div className="container">
                             <div className="row align-items-center justify-content-center justify-content-lg-start">
@@ -80,14 +97,14 @@ useEffect(()=>{
                                     <a href="/CarService/Diagnose" className="btn btn-primary py-3 px-5 animated slideInDown">Start Now<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <img className="img-fluid" src={import.meta.env.BASE_URL + "./src/img/carousel-1.png"} alt="" />
+                                    <img className="img-fluid" src={carousel1} alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="w-100" src={import.meta.env.BASE_URL + "./src/img/carousel-bg-2.jpg"} alt="Image" />
+                    <img className="w-100" src={carousel2} alt="Image" />
                     <div className="carousel-caption d-flex align-items-center">
                         <div className="container">
                             <div className="row align-items-center justify-content-center justify-content-lg-start">
@@ -97,7 +114,7 @@ useEffect(()=>{
                                     <a href="/CarService/Diagnose" className="btn btn-primary py-3 px-5 animated slideInDown">Start Now<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <img className="img-fluid" src={import.meta.env.BASE_URL + "./src/img/carousel-2.png"} alt="" />
+                                    <img className="img-fluid" src={carousel2} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -165,7 +182,7 @@ useEffect(()=>{
             <div className="row g-5">
                 <div className="col-lg-6 pt-4" style={{minHeight: "400px"}}>
                     <div className="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                        <img className="position-absolute img-fluid w-100 h-100" src={import.meta.env.BASE_URL + "./src/img/about.jpg"} style={{objectFit: "cover"}} alt="" />
+                        <img className="position-absolute img-fluid w-100 h-100" src={about} style={{objectFit: "cover"}} alt="" />
                         <div className="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style={{background: "rgba(0, 0, 0, .08)"}}>
                             <h1 className="display-4 text-white mb-0">15 <span className="fs-4">Years</span></h1>
                             <h4 className="text-white">Experience</h4>

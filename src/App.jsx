@@ -9,7 +9,7 @@ function App() {
    <Router basename="/CarService/">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/diagnose" element={<Diagnose />} />
+        <Route path="/Diagnose" element={<Diagnose />} />
       </Routes>
     </Router>
     </>
